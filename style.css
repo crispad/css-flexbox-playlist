@@ -4,12 +4,38 @@
 }
 
 body{
-    background: #eee;
+    background: yellow;
 }
 
 .wrapper{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+
+}
+
+.one{
+    background: red;
+    flex-grow: 2;
+}
+
+.two{
+    background: blue;
+    flex-grow: 3;
+}
+
+.three{
+    background: green;
+    flex-grow: 1;
 }
 
