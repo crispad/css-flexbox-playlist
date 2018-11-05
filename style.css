@@ -19,7 +19,7 @@ body{
     flex-wrap: wrap;
     flex-flow: row;
     height: 600px;
-    align-items: center;
+    align-items: center;  
     justify-content: center;
 }
 
